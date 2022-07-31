@@ -207,6 +207,7 @@ table.top-score img {
   height: 100px;
 }
 
+
 /* Generales */
 html {
   font-size: 22px;
@@ -215,10 +216,29 @@ html {
   html {
     font-size: 20px;
   }
+  
 }
 @media (max-width: 720px) {
   html {
     font-size: 18px;
+  }
+  table.top-score{
+    margin: auto;
+  }
+  .equipos{
+    flex-direction: column;
+    margin: auto;
+  }
+  .marcador .logo img {
+    width: 75px;
+    transform: scale(0.9);
+  }
+  .marcador .puntos img {
+    margin: 0;
+    transform: scale(0.5);
+  }
+  .equipos .equipo{
+    width: 100%;
   }
 }
 
